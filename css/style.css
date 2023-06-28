@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+	font-family:  'PF Din Text Comp Pro', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 139px;
+	padding-top: 24px;
+}
+.wrapper{
+	max-width: 1083px;
+	padding:0 5px 0 5px;
+	outline: 2px  solid red;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+color: #000000;
+font-size: 16px;
+font-weight: 400;
+line-height: 3.38;
+letter-spacing: 1.6px;
+}
+.block{
+	width: 40%;
+	padding-left: 40px;
+    padding-right: 40px;
+}
+picture{
+	margin-top: 20px;
+}
+.menu{
+	display: flex;
+
+	
+}
+.menu_item{
+	display: flex;
+}
+.menu_item>li{
+	margin-right: 20px;
+}
+header{
+	text-transform: uppercase;
+}
+address{
+font-size: 18px;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 1.56;
+margin-left: 10px;
+margin-bottom: 41px;
+}
+address a:last-child{
+	text-transform: lowercase;
+letter-spacing: 0.36px;
+}
+address a{
+	text-decoration: none;
+	color:#959595;
+}
+address img {
+	margin-right: 5px;
+}
+.tel{
+	margin-right: 3px;
+}
+.mail{
+	margin-left: -10px;
+
+}
+.icon_lupa {
+
+	vertical-align: middle;
+}
+input[type=search] {
+border-top-color:transparent;
+border-right-color:transparent;
+border-left-color: transparent;
+border-bottom-color:  #65baaf;
+border-width: 1px;
+margin-right: 2px;
+margin-bottom: 63px;
+}
+::placeholder {
+color: #959595;
+font-family: 'PF Din Text Comp Pro';
+font-size: 18px;
+font-weight: 400;
+line-height: 1.56;
+}
+.menu>div{
+	margin-top: 13px;
+}
+.menu_item{
+	margin-top: 24px;
+	margin-left: 26px;
+}

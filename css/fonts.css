@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/pf-din-text-cond-pro-2');
+
+
+@font-face {
+    font-family: 'Indie Flower';
+    src: url('../fonts/Flow/indieflower-regular-webfont.eot');
+    src: url('../fonts/Flow/indieflower-regular-webfont.eot') format('embedded-opentype'),
+         url('../fonts/Flow/indieflower-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Flow/indieflower-regular-webfont.woff') format('woff'),
+         url('../fonts/Flow/indieflower-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Flow/indieflower-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial/fonts/arial_bolditalicmt-webfont.eot');
+    src: url('../fonts/arial_bolditalicmt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arial/fonts/arial_bolditalicmt-webfont.woff2') format('woff2'),
+         url('../fonts/Arial/fonts/arial_bolditalicmt-webfont.woff') format('woff'),
+         url('../fonts/Arial/fonts/arial_bolditalicmt-webfont.ttf') format('truetype'),
+         url('../fonts/Arial/fonts/arial_bolditalicmt-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinTextCondPro-Regular'), url('../fonts/PF_Din/PFDinTextCondPro-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'PF Din Text Cond Pro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinTextCondPro-Bold'), url('../fonts/PF_Din/PFDinTextCondPro-Bold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'PF Din Text Comp Pro';
+        src: url('../fonts/PF_Tin/pfdintextcomppro-thin_123-webfont.eot');
+        src: url('../fonts/PF_Tin/pfdintextcomppro-thin_123-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/PF_Tin/pfdintextcomppro-thin_123-webfont.woff2') format('woff2'),
+             url('../fonts/PF_Tin/pfdintextcomppro-thin_123-webfont.woff') format('woff'),
+             url('../fonts/PF_Tin/pfdintextcomppro-thin_123-webfont.ttf') format('truetype'),
+             url('../fonts/PF_Tin/pfdintextcomppro-thin_123-webfont.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
